@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="interaction.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="interaction.js"></script>
 
 </head>
 
@@ -26,16 +27,9 @@
     <section class="col-md-6 col-sm-6 col-xs-12">
         <div class="create thumbnail">
             <form action="add" class="create__twit" autocomplete="off">
-                <label for="image" class="profile__select">
-                    <img src="assets/00.jpg" alt="" class="image-selected">
-                    <select name="image" class="image---hidden">
-                        <option value="perfil_00.jpg">
-                        </option>
-                        <option value="perfil_01.jpg">1</option>
-                        <option value="perfil_02.jpg">2</option>
-                        <option value="perfil_03.jpg">3</option>
-                    </select>
-                </label>
+                <img src="assets/00.jpg" alt="" class="image-selected">
+
+
                 <div class="profile__name">
                     <h2>Camila Yohana</h2>
                 </div>
@@ -51,7 +45,7 @@
                 <div class="profile_name">
                     <h2>Camila Yohana</h2>
                 </div>
-                <p>
+                <p class="twit__text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, distinctio dolores? Aperiam sapiente eius, ratione eveniet
                     maiores illo cupiditate quisquam, impedit nobis repudiandae possimus aliquam exercitationem expedita
                     officiis repellat officia!
@@ -68,10 +62,10 @@
             </li>
             <li class="twit">
                 <img src="assets/03.jpg" alt="" class="twit__image">
-                <div class="profile__name">
+                <div class="profile_name" id="name">
                     <h2>Camila Yohana</h2>
                 </div>
-                <p>
+                <p class="twit__text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, distinctio dolores? Aperiam sapiente eius, ratione eveniet
                     maiores illo cupiditate quisquam, impedit nobis repudiandae possimus aliquam exercitationem expedita
                     officiis repellat officia!
@@ -82,7 +76,7 @@
                 </div>
                 <div class="like__result">
                 </div>
-                <button class="twit__delete">
+                <button id="twit__delete">
                     Delete
                 </button>
             </li>

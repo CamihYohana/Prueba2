@@ -44,13 +44,10 @@ ul li p{
     text-align: left;
     padding:3vh 2vw 3vh 2vw;
 }
-.profile__select{
+.image-selected{
     display: inline-block;
     margin-right: 10px;
     float: left;
-}
-.profile__name{
-    display: inline-block;
 }
 select{
     position: relative;
