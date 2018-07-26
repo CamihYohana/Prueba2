@@ -30,6 +30,14 @@ h2{
 ul li p{
     margin: 40px 0 10px 0;
 }
+.twit__like {
+    color:gray;
+    display: block;
+    transition: all .35s ease-out;
+}
+.twit__like--red{
+    color: red;
+}
 
 /*twittear*/
 .create{
