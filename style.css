@@ -1,4 +1,33 @@
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
+ul{
+    list-style-type: none;
+}
+ul li {
+    padding:3vh 2vw 3vh 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
+
+}
+ul li img{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+ul li .profile__name{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    height: 80px;
+}
+h2{
+    margin-top: 24px;
+}
+ul li p{
+    margin: 40px 0 10px 0;
+}
+
