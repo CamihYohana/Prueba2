@@ -14,13 +14,11 @@ ul li {
 }
 ul li img{
     text-align: left;
-    display: inline-block;
     float: left;
     margin-right: 10px;
 }
 .profile__name{
     text-align: left;
-    display: inline-block;
     float: left;
     height: 80px;
 }
@@ -32,11 +30,12 @@ ul li p{
 }
 .twit__like {
     color:gray;
-    display: block;
+    display: inline-block;
     transition: all .35s ease-out;
 }
 .twit__like--red{
     color: red;
+    display: inline-block
 }
 
 /*twittear*/
@@ -45,7 +44,6 @@ ul li p{
     padding:3vh 2vw 3vh 2vw;
 }
 .image-selected{
-    display: inline-block;
     margin-right: 10px;
     float: left;
 }
@@ -61,4 +59,10 @@ select{
     margin-top: 20px;
     position: relative;
     margin-right:10em;
+}
+.twit__delete{
+    float: right;
+}
+.like__result{
+    display: inline-block;
 }
