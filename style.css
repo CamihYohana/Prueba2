@@ -18,7 +18,7 @@ ul li img{
     float: left;
     margin-right: 10px;
 }
-ul li .profile__name{
+.profile__name{
     text-align: left;
     display: inline-block;
     float: left;
@@ -31,3 +31,29 @@ ul li p{
     margin: 40px 0 10px 0;
 }
 
+/*twittear*/
+.create{
+    text-align: left;
+    padding:3vh 2vw 3vh 2vw;
+}
+.profile__select{
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+.profile__name{
+    display: inline-block;
+}
+select{
+    position: relative;
+    overflow: hidden;
+}
+#create__twittear{
+    display: block;
+    margin-top:20px;
+}
+#texto-twit{
+    margin-top: 20px;
+    position: relative;
+    margin-right:10em;
+}
