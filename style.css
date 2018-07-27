@@ -31,13 +31,16 @@ ul li p{
 .twit__like {
     color:gray;
     display: inline-block;
-    transition: all .35s ease-out;
+    
 }
 .twit__like--red{
     color: red;
-    display: inline-block
+    display: inline-block;
+    transition: all .35s ease-out;
 }
-
+.like__result{
+    color: black;
+}
 /*twittear*/
 .create{
     text-align: left;
